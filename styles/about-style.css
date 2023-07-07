@@ -43,7 +43,7 @@ font-weight: 500;
 
 #about>.container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
 }.about-download a{
