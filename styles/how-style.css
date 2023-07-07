@@ -1,0 +1,59 @@
+.how-card>h2{
+    color: #171F4E;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 128%;
+margin-top: 30px;
+}
+
+.how-stage{
+    display: flex;
+    gap: 15px;
+}
+
+.how-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bi-arrow-right{
+    color: #1786F9;
+    font-size: 20px;
+    gap: 14px;
+}
+
+.how-images{
+    padding: 0px 60px 0 0 ;
+    border-radius: 18px;
+background: #CEDFFF;
+position: relative;
+}
+
+.how-images img{
+    transform: translate(30px,-30px);
+}
+
+.how-stages{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 30px;
+    padding-bottom: 40px    ;
+}
+
+.how-images :nth-child(2)
+{
+    position: absolute;
+    top: 130px;
+    left: 203px;
+}
+
+.right{
+    background: #FFEDED;
+}
+
+#how{
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
